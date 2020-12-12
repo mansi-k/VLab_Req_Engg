@@ -1,0 +1,15 @@
+.diagram-component {
+    width: 80%;
+    height: calc(100vh - 60px);
+    border: solid 1px black;
+    background-color: white;
+    display: inline-block;
+}
+
+.palette-component {
+  width: 20%;
+  height: calc(100vh - 60px);
+  border: solid 1px black;
+  background-color: white;
+  display: inline-block;
+}

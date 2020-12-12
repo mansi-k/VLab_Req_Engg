@@ -1,0 +1,55 @@
+.nav-container {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    background-color: #2a283e;
+    height: 100%;
+    z-index: 10;
+    padding: 10px 0;
+    overflow: hidden;
+    transition: width 0.2s ease-in;
+    white-space: nowrap;
+}
+
+.nav-container-show {
+    width: 30%;
+}
+
+.cross-space {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.cross-space, .title, .contents {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.contents > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.contents {
+    font-size: 18px;
+}
+
+.contents > h6 {
+    font-size: 0.8em;
+}
+
+.contents > ul > li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.contents  a {
+    color: white
+}

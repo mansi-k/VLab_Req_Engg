@@ -1,0 +1,49 @@
+{
+    "Case_study": {
+        "title": "Problem Statement",
+        "contents": ["Here you are presented a case study to help you understand the different stages of the requirement analysis phase. You are required to read and understand this case study thoroughly. In the later sections, you will be presented a series of simulations where your understanding will be tested in a very interactive enviornment. You can refer the case study in this page in case of confusion or doubt."]
+    },
+    "Users": {
+        "title": "Identify Stakeholders",
+        "contents":["In this activity, you are shown a series of cards which represent the various stakeholders of the respective case study, Some of the stakeholders presented here are wrong. You need to select the cards with the correct stakeholders after reading the case study and avoid choosing the wrong ones"]
+    },
+    "InputOutput": {
+        "title": "Identify input and output",
+        "contents": ["Suspendisse eget venenatis massa, et semper neque. In est dui, iaculis ac ex lobortis, feugiat venenatis risus. Pellentesque volutpat neque sed arcu tempus viverra", 
+                    "Sed pretium elementum felis, vitae vestibulum ante ultrices at. Ut at turpis varius, tristique velit sed, tincidunt risus. Cras pharetra nisl diam, eu eleifend nisi varius sed. Duis maximus dui quis aliquet rhoncus",
+                    "Sed pretium elementum felis, vitae vestibulum ante ultrices at. Ut at turpis varius, tristique velit sed, tincidunt risus. Cras pharetra nisl diam, eu eleifend nisi varius sed. Duis maximus dui quis aliquet rhoncus",
+                    "Sed pretium elementum felis, vitae vestibulum ante ultrices at. Ut at turpis varius, tristique velit sed, tincidunt risus. Cras pharetra nisl diam, eu eleifend nisi varius sed. Duis maximus dui quis aliquet rhoncus",
+                    "Sed pretium elementum felis, vitae vestibulum ante ultrices at. Ut at turpis varius, tristique velit sed, tincidunt risus. Cras pharetra nisl diam, eu eleifend nisi varius sed. Duis maximus dui quis aliquet rhoncus",
+                    "Sed pretium elementum felis, vitae vestibulum ante ultrices at. Ut at turpis varius, tristique velit sed, tincidunt risus. Cras pharetra nisl diam, eu eleifend nisi varius sed. Duis maximus dui quis aliquet rhoncus",
+                    "Sed pretium elementum felis, vitae vestibulum ante ultrices at. Ut at turpis varius, tristique velit sed, tincidunt risus. Cras pharetra nisl diam, eu eleifend nisi varius sed. Duis maximus dui quis aliquet rhoncus",
+                    "Sed pretium elementum felis, vitae vestibulum ante ultrices at. Ut at turpis varius, tristique velit sed, tincidunt risus. Cras pharetra nisl diam, eu eleifend nisi varius sed. Duis maximus dui quis aliquet rhoncus"]
+    },
+    "library_management":  {
+        "title": "Case Study: - Library Management System",
+        "contents": ["The SE VLabs Institute has been recently setup to provide state-of-the-art research facilities in the field of Software Engineering.",
+                     "As the size and capacity of the institute is increasing the time, The HOD has proposed to develop a Library Information System (LIS) for the benefit of teachers and students of the institute. The head of the department (HOD) wants to automate the manual work. He envisions that LIS will enable the members to borrow a book (or return it) with ease while sitting at his desk/chamber. For the library staff, this system aids them to easily handle day-to-day book transactions. The librarian will have administrative privileges and complete control of the system. Considering the low budget that he has at his disposal, he entrusts the work to a team of student volunteers.",
+                     "The HOD introduced the volunteers to the librarian to brief the team about the aspects of the Library management system.",
+                     "The librarian tells the team that since many students take admission every year in the Insititute, she wants the facility for new students to register themselves with the Library information system to avail its facilities. On successful registration, a user ID and password would be provided to the member. He has to use these credentials for any future transaction in LIS. New teachers can register themselves too.",
+                     "The librarian wants the ability to deregister any user if she deems fit. Since many new books get published every year and many books get outdated, the librarian also wants the facility to add new books or remove books from the database of LIS. The librarian wants to limit the number of books that students and teachers can borrow at once to 2 and 5 respectively, also the students and teachers can borrow a book for a maximum of 20 and 30 days respectively. The user can borrow a new book only when he returns the borrowed books depending upon the maximum number he can borrow. A user cannot borrow a book only if it has not been booked in advance or borrowed by some other user. Since some users don’t return the books in time, the librarian wants the system to have the ability to send notification to users to remind them of the due date. In case a user damages or loses a book, then the librarian can ask for reimbursement accordingly, or deregister the repeat offenders.",
+                     "The team then went to meet some students to find out their expectations. Many Students want to be able to search for a book to see if it is present in the institute’s library. A book can be searched by its title or author’s name or Publisher’s name. Since many times, a book which a student wants has already been borrowed, then students want the facility to borrow a book in advance from the date whenever it gets returned to the library. Any Student who has issued a book might find that his requirement is not fulfilled by 20 days. In that case, he might choose to reissue the book, and get permission to keep it for more days, or the Student can return the book in advanced before the due date if he has finished the book. The students want to be able to see the current status of their profiles, I.e. what is the number of books they have borrowed? what is the due date to return these books, Which book is available to be borrowed, if it's not then from which date can it be booked in advance? Students should also be able to see any due amount or reimbursements to be made to the Institute library."
+                    ]
+    },
+    "waste_management":  {
+        "title": "Case Study: - Waste Management Inspection System",
+        "contents": ["The city counsellor and administrator of the Department of Environmental Quality want to update and modernize the way the inspection of waste management is done in the city. The administrator has proposed that the main purpose of WMIS will be to • To minimize the time span of any inspection • To minimize the amount of paper work required  • To provide a searchable database of all past inspections  • To provide an automated channel for the public to request information (under Freedom of Information Act). ",
+                     "The administrator approaches a software development organization for the development of Waste management inspection system. Since the city is ever expanding and new projects and industries come up in the city all the time, the administrator wants the ability to add new facilities for inspection in future to the database of Waste management inspection system. The administrator also wants to be able to search for the existing facilities present in the Waste management inspection system. The WMIS should ask for login information from the Department of Environmental Quality, citizens need not login but can only read the information present. ",
+                     "The administrator introduces the team to the Department of Environmental Quality (DEQ) Waste Management Division (WMD) staff members to brief them further on the other aspects of the waste management inspection system. ",
+                     "The following general requirements were laid out for our project named WMIS:",
+                     "The inspection procedure requires the staff to identify the type of facility to be inspected and then generate a check list manually, therefore to reduce time, the staff wants to store the different types of checklists in the WMIS database, search through those checklists and print the appropriate checklist for their work. Sometimes a new type of facility needs to be inspected for which there is no appropriate check list as of now, hence the staff would want to add a new checklist in the appropriate format if need be and store it in the WMIS database. The city implements new rules and regulations for waste management, hence the staff members should be able to make small changes to the existing checklists to keep up with the updated inspection procedures and regulations. ",
+                     "Once the inspection is done, the staff members must send the results of the inspection to the facilities in the letter format, the staff members want the WMIS to generate the letters once the filled checklist is uploaded on the WMIS. The filled checklist and letters must be stored so that it can be accessed by the inspector and administrator anytime. "
+                    ]
+    },
+    "TaskRelation": {
+        "title": "Use Case Diagram",
+        "contents": ["The use case model for any system consists of a set of use cases"]
+    },
+    "Requirements": {
+        "title": "Identify Requirements",
+        "contents": ["In this activity, you are shown a series of cards which represent the various requirements of the stakeholders, some of the requirements presented here are wrong. You need to select the cards with the correct requirments after reading the case study."]
+    }
+}

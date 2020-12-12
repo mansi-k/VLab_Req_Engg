@@ -1,0 +1,8 @@
+{
+    "stakeholders": [
+        { "id": "stkh1", "flipped": false, "title": "Administrator", "res": "Correct", "desc": ["Administrator is a correct stakeholder since he will add new facilities to WMIS system and see its overall working."] },
+        { "id": "stkh2", "flipped": false, "title": "Inspector", "res": "Correct", "desc": ["Inspector is a correct stakeholder since he will use WMIS to print checklists and upload the results of the checklists after Inspection."] },
+        { "id": "stkh2", "flipped": false, "title": "President of Country", "res": "Wrong", "desc": ["President is a wrong stakeholder since he is not going to use the WMIS system."] },
+        { "id": "stkh3", "flipped": false, "title": "Citizens", "res": "Correct", "desc": ["Citizens is a correct stakeholder since they are going to use the WMIS to read the results of various inspections."] }
+      ]
+}

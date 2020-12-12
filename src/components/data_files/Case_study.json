@@ -1,0 +1,130 @@
+{
+    "Case_Study": [
+        {
+            "id": "req1",
+            "flipped": false,
+            "title": "New User Registration and login",
+            "res": "Correct",
+            "desc": "Since new students and take admission every year in the Insititute, facility should be provided for new students to register themselves with the Library information system to avail its facilities. On successful registration, a user ID and password has to be provided.He has to use these credentials for any future login in LIS. New teachers can register themselves too."
+        },
+        {
+            "id": "req2",
+            "flipped": false,
+            "title": "User Deregistration",
+            "res": "Correct",
+            "desc": "The librarian wants the ability to deregister any user it deems fit. Users can deregister themselves too if they don't want to avail facilities of LIS"
+        },
+        {
+            "id": "req3",
+            "flipped": false,
+            "title": "New Book deregistration ",
+            "res": "Correct",
+            "desc": "Many new books get published every year which are more relevant to the curriculum, Librarian should have the facilities to add these books in LIS"
+        },
+        {
+            "id": "req4",
+            "flipped": false,
+            "title": "Old Book deregistration ",
+            "res": "Correct",
+            "desc": "Librarian wants to deregister any book from LIS and are not relevant to the currecnt curiiculum anymore"
+        },
+        {
+            "id": "req5",
+            "flipped": false,
+            "title": "Issuing a book ",
+            "res": "Correct",
+            "desc": "A Student can issue a book from LIS for a maximum of 20 days and a teacher for 30 days. A book can only be issued if it has not been issued by some other student"
+        },
+        {
+            "id": "req6",
+            "flipped": false,
+            "title": "Reserving a book in advance ",
+            "res": "Correct",
+            "desc": "If a book has already been issued by a user which some other user wants to issue now, then he must have the facility to issue that book in advance from the date when the book is returned to LIS"
+        },
+        {
+            "id": "req7",
+            "flipped": false,
+            "title": "Reissuing a book ",
+            "res": "Correct",
+            "desc": "If a student's requirement is not fulfilled within 20 days then he can reissue the book for more amount of time provided that no other user has issued that book in advance"
+        },
+        {
+            "id": "req8",
+            "flipped": false,
+            "title": "Searching a book ",
+            "res": "Correct",
+            "desc": " A user/administrator can search a book by its title or author’s name or Publisher’s name."
+        },
+        {
+            "id": "req9",
+            "flipped": false,
+            "title": "Returning a book ",
+            "res": "Correct",
+            "desc": "A user wants the functionality to return a book before he exceeds the stipulated due date."
+        },
+        {
+            "id": "req10",
+            "flipped": false,
+            "title": "Reimbursement of lost or damaged book",
+            "res": "Correct",
+            "desc": "If a user loses or damages a book, then the user can do the reimbursement through LIS to the institute."
+        },
+        {
+            "id": "req11",
+            "flipped": false,
+            "title": "Checking status of a book",
+            "res": "Correct",
+            "desc": "A user wants to check the status of the book whether it is already been issued by some other user,if it is then when it will be returned or from which date user can book it in advance."
+        },
+        {
+            "id": "req12",
+            "flipped": false,
+            "title": "Checking status of a student",
+            "res": "Correct",
+            "desc": "A user can his status about the number of books he has borrowed, the due date to return these books, if he has to pay any reimbursement to the institute. A student can see only his status whereas the administrator can see the status of everyone"
+        },
+        {
+            "id": "req13",
+            "flipped": false,
+            "title": "Notify the users",
+            "res": "Correct",
+            "desc": "If the due date for any book that the user has issued is near, then the user should get notificatio from the LIS. The administror can also send notifications to users regarding the reimbursements to be made"
+        },
+        {
+            "id": "req14",
+            "flipped": false,
+            "title": "Buying a book ",
+            "res": "Wrong",
+            "desc": "This is not a valid requirement. A user cannot buy a book from LIS to keep it permanently"
+        },
+        {
+            "id": "req15",
+            "flipped": false,
+            "title": "Donating a book ",
+            "res": "Wrong",
+            "desc": "This is not a valid requirement. A user cannot donate a book to LIS"
+        },
+        {
+            "id": "req16",
+            "flipped": false,
+            "title": "Borrow a book from student",
+            "res": "Wrong",
+            "desc": "This is not a valid requirement. A user cannot buy a book from LIS to keep it permanently"
+        },
+        {
+            "id": "req17",
+            "flipped": false,
+            "title": "Changing passwords timely",
+            "res": "Wrong",
+            "desc": "This is not a valid requirement. The institute has not asked for the functionality for user to change passwords frequently"
+        },
+        {
+            "id": "req18",
+            "flipped": false,
+            "title": "Book reviews",
+            "res": "Wrong",
+            "desc": "This is not a valid requirement. A user has not asked to see the reviews of the book he wants to issue"
+        }
+    ]
+    }

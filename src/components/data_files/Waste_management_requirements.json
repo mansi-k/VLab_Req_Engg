@@ -1,0 +1,68 @@
+{
+    "requirements": [
+        {
+            "id": "req1",
+            "flipped": false,
+            "title": "Add new facilities to the database",
+            "res": "Correct",
+            "desc":[ "The city is ever expanding and new projects and industries come up in the city all the time, hence there should be a provision to add new facilities for inspection in future"
+        ]},
+        {
+            "id": "req2",
+            "flipped": false,
+            "title": "Login",
+            "res": "Correct",
+            "desc":[ "The administrator wants a login facility for the members of the department of Enviornmental quality"
+        ]},
+        {
+            "id": "req3",
+            "flipped": false,
+            "title": "Add a new checklist",
+            "res": "Correct",
+            "desc":[ "Sometimes a new type of facility needs to be inspected for which there is no appropriate check list as of now, hence facility should be provided for the staff to add a new checklist in the appropriate format if need be and store it in the WMIS database"
+        ]},
+        {
+            "id": "req4",
+            "flipped": false,
+            "title": "Search for all electronic checklists",
+            "res": "Correct",
+            "desc":[ "Staff members want the ability to search for the appropriate checklist from the list all the checklists in the WMIS database for a particular type of facility"
+        ]},
+        {
+            "id": "req5",
+            "flipped": false,
+            "title": "Generate letters to be sent out to facilities based on inspection results.",
+            "res": "Correct",
+            "desc":[ "Staff members want the ability to automatically generate the results of the inspection done on a facility"
+        ]},
+        {
+            "id": "req6",
+            "flipped": false,
+            "title": "Store letters and checklists electronically",
+            "res": "Correct",
+            "desc":[ "Staff members want the ability to store the checklists and letters generated after inspection in the WMIS database"
+        ]},
+        {
+            "id": "req7",
+            "flipped": false,
+            "title": "Print blank checklists",
+            "res": "Correct",
+            "desc":[ "Staff members want to print blank checklists to use it for inspection of a facility."
+        ]},
+        {
+            "id": "req9",
+            "flipped": false,
+            "title": "Send inspection results through email",
+            "res": "Correct",
+            "desc":[ "This is not a valild requirement, Staff doesn't want the facility to send inspection results through email."
+        ] },
+        {
+            "id": "req18",
+            "flipped": false,
+            "title": "Login of Citizens",
+            "res": "Wrong",
+            "desc":[ "This is not a valild requirement, There is no need for Citizens to login to use the WMIS."]
+        }
+    ]
+}
+    

@@ -1,0 +1,9 @@
+.base-side-container {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;  
+}

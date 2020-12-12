@@ -1,0 +1,167 @@
+{
+    "library_management": {
+        "reissue_book": {
+            "MEMBER": [{
+                "to": "REISSUE_BOOK",
+                "text": "",
+                "type": "normal"
+            }],
+            "STAFF": [{
+                "to": "MEMBER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "STUDENT": [{
+                "to": "MEMBER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "AUTHENTICATE": [{
+                "to": "REISSUE_BOOK",
+                "text": "<<include>>",
+                "type": "include"            
+            }],
+            "LIST_ISSUED_BOOKS": [{
+                "to": "REISSUE_BOOK",
+                "text": "<<include>>",
+                "type": "include"            
+            }],
+            "VERIFY_REISSUE": [{
+                "to": "REISSUE_BOOK",
+                "text": "<<include>>",
+                "type": "include"            
+            }],
+            "CHECK_BOOK_AVAILABILITY": [{
+                "to": "VERIFY_REISSUE",
+                "text": "<<generalize>>",
+                "type": "generalize"            
+            }],
+            "CHECK_FINE": [{
+                "to": "VERIFY_REISSUE",
+                "text": "<<generalize>>",
+                "type": "generalize"            
+            }],
+            "LIBRARIAN": [{
+                "to": "CONFIRM_REISSUE",
+                "text": "",
+                "type": "normal"            
+            }],
+            "CHECK_REISSUE_DETAILS": [{
+                "to": "CONFIRM_REISSUE",
+                "text": "<<include>>",
+                "type": "include"              
+            }],
+            "SEND_RESPONSE": [{
+                "to": "CONFIRM_REISSUE",
+                "text": "<<extend>>",
+                "type": "extend"              
+            }]
+        },
+        "search_book": {
+            "MEMBER": [{
+                "to": "SEARCH_BOOK",
+                "text": "",
+                "type": "normal"
+            }],
+            "STUDENT": [{
+                "to": "MEMBER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "LIBRARIAN": [{
+                "to": "MEMBER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "STAFF": [{
+                "to": "MEMBER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "ENTER_PUBLISHER_DETIALS": [{
+                "to": "SEARCH_BOOK",
+                "text": "<<extend>>",
+                "type": "extend"            
+            }],
+            "ENTER_BOOK_DETAILS": [{
+                "to": "SEARCH_BOOK",
+                "text": "<<include>>",
+                "type": "include"            
+            }]
+        }
+
+    },
+    "waste_management": {
+        "print_checklist": {
+            "USER": [{
+                "to": "PRINT_CHECKLIST",
+                "text": "",
+                "type": "normal"            
+            }],
+            "ADMINISTRATOR": [{
+                "to": "USER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "INSPECTOR": [{
+                "to": "USER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "CHECK_NEW_FACULTY": [{
+                "to": "PRINT_CHECKLIST",
+                "text": "<<extend>>",
+                "type": "extend"            
+            }],
+            "CHECK_NEW_INSPECTION": [{
+                "to": "PRINT_CHECKLIST",
+                "text": "<<extend>>",
+                "type": "extend"            
+            }],
+            "PARTIAL_EMPTY": [{
+                "to": "PRINT_CHECKLIST",
+                "text": "<<include>>",
+                "type": "include"            
+            }]
+        },
+        "generate_letter": {
+            "USER": [{
+                "to": "GENERATE_LETTER",
+                "text": "",
+                "type": "normal"            
+            }],
+            "ADMINISTRATOR": [{
+                "to": "USER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "INSPECTOR": [{
+                "to": "USER",
+                "text": "<<generalize>>",
+                "type": "generalize"
+            }],
+            "ENTER_CHECKLIST_TYPE": [{
+                "to": "GENERATE_LETTER",
+                "text": "<<include>>",
+                "type": "include"            
+            }],
+            "ENTER_LETTER_TYPE": [{
+                "to": "GENERATE_LETTER",
+                "text": "<<include>>",
+                "type": "include"            
+            }],
+            "CHECK_IF_NEW_INSPECTION": [{
+                "to": "GENERATE_LETTER",
+                "text": "<<extend>>",
+                "type": "extend"            
+            }]  ,
+            "CHECK_IF_NEW_FACILITY": [{
+                "to": "GENERATE_LETTER",
+                "text": "<<extend>>",
+                "type": "extend"            
+            }] 
+        }
+
+    }
+
+}

@@ -1,0 +1,11 @@
+{
+"stakeholders": [
+    { "id": "stkh1", "flipped": false, "title": "Teacher", "res": "Correct", "desc":["Yes! Teachers can register and use the LIS to borrow books."] },
+    { "id": "stkh2", "flipped": false, "title": "Watchman", "res": "Wrong", "desc":["Watchman is wrong stakeholder since is not mentioned in the case study."] },
+    { "id": "stkh3", "flipped": false, "title": "Student", "res": "Correct", "desc":["Student is a correct stakeholder since he is going to use LIS to register himself, issue books, reserve a book in advance."] },
+    { "id": "stkh4", "flipped": false, "title": "Librarian", "res": "Correct", "desc":["Librarian is a correct stakeholder since he will add new books to the LIS, deregister old books, check the status of students or teachners."] },
+    { "id": "stkh5", "flipped": false, "title": "Alumini", "res": "Wrong", "desc":["Alumini is a wrong stakeholder since they are not mentioned the case study to use LIS"] },
+    { "id": "stkh6", "flipped": false, "title": "Admin", "res": "Correct", "desc":["Admin is a correct stakeholder since it is not mentioned in the case study"] },
+    { "id": "stkh7", "flipped": false, "title": "Parents", "res": "Wrong", "desc":["Parents are a wrong stakeholder since they are not going to use LIS"] }
+  ]
+}

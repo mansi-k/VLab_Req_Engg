@@ -1,0 +1,61 @@
+{
+    "library_management": {
+        "reissue_book": {
+            "name": "Reissue book",
+            "objects": [
+                { "key": "REISSUE_BOOK","figure": "Ellipse" ,"color": "#2d4f87", "text": "Ressue book", "fontColor": "#F9EDFC" },
+                { "key": "STAFF", "figure": "Actor","color": "#7a1616", "text": "Staff", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "CONFIRM_REISSUE", "figure": "Ellipse", "color": "#de5c00", "text": "Confirm Reissue", "fontColor": "#F9EDFC" },
+                { "key": "LIBRARIAN", "figure": "Actor","color": "#7a1616", "text": "Librarian", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "STUDENT", "figure": "Actor","color": "#7a1616", "text": "Student", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "MEMBER", "figure": "Actor","color": "#7a1616", "text": "Member", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "AUTHENTICATE", "figure": "Ellipse", "color": "#237a5d", "text": "Authenticate", "fontColor": "#F9EDFC" },
+                { "key": "LIST_ISSUED_BOOKS", "figure": "Ellipse", "color": "#48048c", "text": "List issued books", "fontColor": "#F9EDFC" },
+                { "key": "VERIFY_REISSUE", "figure": "Ellipse", "color": "#a6414b", "text": "Verify Reissue", "fontColor": "#F9EDFC" },
+                { "key": "CHECK_BOOK_AVAILABILITY", "figure": "Ellipse", "color": "#e8ae0e", "text": "Check Availability", "fontColor": "#F9EDFC" },
+                { "key": "CHECK_FINE", "figure": "Ellipse", "color": "#0a7820", "text": "Check fine", "fontColor": "#F9EDFC" },
+                { "key": "CHECK_REISSUE_DETAILS", "figure": "Ellipse", "color": "#25888F", "text": "Check reissue details", "fontColor": "#F9EDFC" },
+                { "key": "SEND_RESPONSE", "figure": "Ellipse", "color": "#CEC14E", "text": "Send response", "fontColor": "#F9EDFC" }
+            ]
+        },
+        "search_book": {
+            "name": "Search Book",
+            "objects": [
+                { "key": "LIBRARIAN", "figure": "Actor","color": "#7a1616", "text": "Librarian", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "STUDENT", "figure": "Actor","color": "#7a1616", "text": "Student", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "ENTER_PUBLISHER_DETIALS", "figure": "Ellipse", "color": "#a6414b", "text": "Enter publisher details", "fontColor": "#F9EDFC" },
+                { "key": "MEMBER", "figure": "Actor","color": "#7a1616", "text": "Member", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "STAFF", "figure": "Actor","color": "#7a1616", "text": "Staff", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "SEARCH_BOOK", "figure": "Ellipse", "color": "#0a7820", "text": "Search Book", "fontColor": "#F9EDFC" },
+                { "key": "ENTER_BOOK_DETAILS", "figure": "Ellipse", "color": "#25888F", "text": "Enter book deatils", "fontColor": "#F9EDFC" }
+            ]
+        }
+    },
+    "waste_management": {
+        "print_checklist": {
+            "name": "Print Checklist",
+            "objects": [
+                { "key": "USER","figure": "Actor" ,"color": "#7a1616", "text": "User", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "ADMINISTRATOR", "figure": "Actor","color": "#7a1616", "text": "Administrator", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "INSPECTOR", "figure": "Actor", "color": "#7a1616", "text": "Inspector", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "PRINT_CHECKLIST", "figure": "Ellipse","color": "#F5BB28", "text": "Print Checklist", "fontColor": "#F9EDFC"},
+                { "key": "CHECK_NEW_FACULTY", "figure": "Ellipse","color": "#051F5B", "text": "Check if new faculty", "fontColor": "#F9EDFC"},
+                { "key": "CHECK_NEW_INSPECTION", "figure": "Ellipse","color": "#BF1220", "text": "Check if new inspection", "fontColor": "#F9EDFC"},
+                { "key": "PARTIAL_EMPTY", "figure": "Ellipse", "color": "#313F5F", "text": "Partial or empty checklist", "fontColor": "#F9EDFC" }   
+            ]
+        },
+        "generate_letter": {
+            "name": "Generate Leter",
+            "objects": [
+                { "key": "USER","figure": "Actor" ,"color": "#7a1616", "text": "User", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "ADMINISTRATOR", "figure": "Actor","color": "#7a1616", "text": "Administrator", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "INSPECTOR", "figure": "Actor", "color": "#7a1616", "text": "Inspector", "fontColor": "black", "width": 40, "height": 80, "row": 1 },
+                { "key": "GENERATE_LETTER", "figure": "Ellipse","color": "#F5BB28", "text": "Generate Letter", "fontColor": "#F9EDFC"},
+                { "key": "ENTER_CHECKLIST_TYPE", "figure": "Ellipse","color": "#051F5B", "text": "Enter Checklist Type", "fontColor": "#F9EDFC"},
+                { "key": "ENTER_LETTER_TYPE", "figure": "Ellipse","color": "#BF1220", "text": "Enter Letter Type", "fontColor": "#F9EDFC"},
+                { "key": "CHECK_IF_NEW_INSPECTION", "figure": "Ellipse", "color": "#313F5F", "text": "Check if new Inspection", "fontColor": "#F9EDFC" },
+                { "key": "CHECK_IF_NEW_FACILITY", "figure": "Ellipse", "color": "#CEC14E", "text": "Check if new facility", "fontColor": "#F9EDFC" }
+            ]
+        }
+    }
+}
